@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Himar Suarez Campos"/>
+	<link rel = "stylesheet" href = "CSS/estilos.css" />
+	 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+	<script type="text/javascript" src="ej1.js"></script>
+</head>
+	<body>
+
+	
+		<div class="header">
+		</div>
+		<div class="navbar">
+			<span class="unity">
+				<a>SK Informatica</a>
+			</span>
+		</div>
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Ver pedido</button>
+
+				 <div class="container">
+			        <div class="row">
+			            <!-- Elementos generados a partir del JSON -->
+			            <main id="items" class="col-sm-8 row"></main>
+			            <!-- Carrito -->
+				            <aside class="col-sm-4">
+				            	<div class="carrito">
+					                <h2>Carrito</h2>
+					                <!-- Elementos del carrito -->
+					                <ul id="carrito" class="list-group"></ul>
+					                <hr>
+					                <!-- Precio total -->
+					                <p class="text-right">Total: <span id="total"></span>&euro;</p>
+
+					            </div>
+					        </aside>
+			        </div>
+			    </div>
+
+	</body>
+</html>
